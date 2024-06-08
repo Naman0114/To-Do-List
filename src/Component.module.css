@@ -1,6 +1,113 @@
 .Container{
-    width:700px;
-    margin: 20px 0px 0px 200px;
-    border:2px solid red;
-    text-align: center;
+    width:60vmax;
+    margin: 6vmax 0vmax 0vmax 18vmax;
+    border:0.2vmax solid black;
+    padding: 0vmax 0vmax 5vmax 3vmax;
+    
 }
+@media (max-width:950px) {
+    .Container{
+        margin: 8vmax 0vmax 0vmax 14vmax;
+
+    }
+}
+@media (max-width:890px) {
+    .Container{
+        margin: 12vmax 0vmax 0vmax 12vmax;
+
+    }
+}
+@media (max-width:840px) {
+    .Container{
+        margin: 10vmax 0vmax 0vmax 10vmax;
+
+    }
+}
+@media (max-width:810px) {
+    .Container{
+        margin: 12vmax 0vmax 0vmax 8vmax;
+
+    }
+}
+@media (max-width:760px) {
+    .Container{
+        margin: 14vmax 0vmax 0vmax 6vmax;
+
+    }
+}
+
+@media (max-width:720px) {
+    .Container{
+        margin: 15vmax 0vmax 0vmax 4vmax;
+
+    }
+}
+@media (max-width:680px) {
+    .Container{
+        margin: 15vmax 0vmax 0vmax 3vmax;
+
+    }
+}
+@media (max-width:680px) {
+    .Container{
+        margin: 15vmax 0vmax 0vmax 5.5vmax;
+        width:55vmax;
+
+    }
+}
+@media (max-width:660px) {
+    .Container{
+        margin: 15vmax 0vmax 0vmax 7vmax;
+        width:50vmax;
+
+    }
+}
+@media (max-width:640px) {
+    .Container{
+        margin: 15vmax 0vmax 0vmax 7vmax;
+        width:40vmax;
+        padding-right: 50px;
+
+    }
+}
+@media (max-width:540px) {
+    .Container{
+        margin: 6vmax 2vmax 0vmax 6vmax;
+        width:40vmax;
+        padding-right: 50px;
+
+    }
+}
+@media (max-width:520px) {
+    .Container{
+        margin: 6vmax 2vmax 0vmax 6vmax;
+        width:35vmax;
+        padding-right: 80px;
+
+    }
+}
+@media (max-width:470px) {
+    .Container{
+        margin: 6vmax 2vmax 0vmax 8vmax;
+        width:30vmax;
+        padding-right: 80px;
+
+    }
+}
+@media (max-width:450px) {
+    .Container{
+        margin: 6vmax 0vmax 0vmax 7vmax;
+        width:30vmax;
+        padding-right: 80px;
+
+    }
+}
+@media (max-width:440px) {
+    .Container{
+        margin: 6vmax 0vmax 0vmax 0vmax;
+        width:100%;
+        padding-right: 60px;
+        border: none;
+    }
+}
+

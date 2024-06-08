@@ -1,7 +1,8 @@
 h1 {
-    font-weight: 700;
-    margin: 40px;
-    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 20px 40px -60px;
+    font-size: 25px;
+    color: orangered;
 }
 
 input {
@@ -12,4 +13,31 @@ input {
 }
 .item-row {
     margin: 15px 0px 15px 0px;
+}
+@media(max-width:760px){
+    h1 {
+        font-weight: 500;
+        margin: 10px 10px 40px -40px;
+        font-size: 20px;
+        
+    }
+    
+}
+@media(max-width:640px){
+    h1 {
+        font-weight: 500;
+        margin: 10px 10px 40px -15px;
+        font-size: 20px;
+        
+    }
+    
+}
+@media(max-width:520px){
+    h1 {
+        font-weight: 500;
+        margin: 12px 10px 40px 20px;
+        font-size: 20px;
+        
+    }
+    
 }
