@@ -2,16 +2,16 @@ import { createContext, useReducer } from "react";
 export const NewTodoItems = createContext([]);
 
 let itemsReducer = (currValue, action) => {
-    let newValue = currValue;
+    let newValue=currValue;
     if (action.type === "Add_Item") {
-        if (action.post.getInput !== "" && action.post.getDate !== "") {
-            newValue = [...currValue, { name: action.post.getInput, dueDate: action.post.getDate },];
-        }
-    } else if (action.type === "Delete_Item") {
-        newValue = currValue.filter((item) => { item.name !== action.post.itemName });
+        if(action.post.getInput!=="" & action.post.getDate!==""){
+        newValue = [...currValue, { name: action.post.getInput, dueDate: action.post.getDate },];   
+    }}
+    else if (action.type === "Delete_Item") {
+            newValue=currValue.filter((item) => item.name !== action.post.itemName);
     }
     return newValue;
-}
+};
 
 const Add_delete = ({ children }) => {
     const [takeValue, dispatchTakeValue] = useReducer(itemsReducer, []);
@@ -29,7 +29,7 @@ const Add_delete = ({ children }) => {
         const deleteItemAction = {
             type: "Delete_Item",
             post: {
-                itemName: getInput
+                itemName: getInput,
             }
         };
         dispatchTakeValue(deleteItemAction)

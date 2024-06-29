@@ -5,7 +5,7 @@ function Items() {
     const { takeValue } = useContext(NewTodoItems);
     return (
         <div className="todo-container">
-            {takeValue.map((item) => (<Item todoName={item.name} todoDate={item.dueDate}></Item>))}
+            {takeValue.map((item) => (<Item todoName={item.name} key={item.name}  todoDate={item.dueDate}></Item>))}
         </div>
     );
 

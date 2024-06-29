@@ -3,8 +3,6 @@ import { MdOutlineDeleteForever } from "react-icons/md";
 import { NewTodoItems } from "./store/STodoitems";
 function Item({todoName,todoDate}) {
     const { deleteItem } = useContext(NewTodoItems);
-
-
     return <>
         <div className="container  container-all">
             <div className="row item-row">
